@@ -5,7 +5,7 @@ import Home from './home/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const [mainView, setMainView] = useState(false);
+  const [mainView, setMainView] = useState(true);
   var view;
   if (mainView) {
     view = <Home />

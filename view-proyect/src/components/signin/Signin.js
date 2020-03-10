@@ -6,39 +6,39 @@ export default function SignIn(props) {
   const {handlerLogin} = props;
 
   return (
-          <div class="container">
-            <div class="d-flex justify-content-center h-100">
-              <div class="card">
-                <div class="card-header">
+          <div className="container">
+            <div className="d-flex justify-content-center h-100">
+              <div className="card">
+                <div className="card-header">
                   <h3>Sign In</h3>
-                  <div class="d-flex justify-content-end social_icon">
-                    <span><i class="fab fa-facebook-square"></i></span>
-                    <span><i class="fab fa-google-plus-square"></i></span>
-                    <span><i class="fab fa-twitter-square"></i></span>
+                  <div className="d-flex justify-content-end social_icon">
+                    <span><i className="fab fa-facebook-square"></i></span>
+                    <span><i className="fab fa-google-plus-square"></i></span>
+                    <span><i className="fab fa-twitter-square"></i></span>
                   </div>
                 </div>
-                <div class="card-body">
+                <div className="card-body">
                   <form>
-                    <div class="input-group form-group">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                    <div className="input-group form-group">
+                      <div className="input-group-prepend">
+                        <span className="input-group-text"><i className="fas fa-user"></i></span>
                       </div>
-                      <input type="text" class="form-control" placeholder="Username"/>
+                      <input type="text" className="form-control" placeholder="Username"/>
                       
                     </div>
-                    <div class="input-group form-group">
-                      <div class="input-group-prepend">
-                        <span class="input-group-text"><i class="fas fa-key"></i></span>
+                    <div className="input-group form-group">
+                      <div className="input-group-prepend">
+                        <span className="input-group-text"><i className="fas fa-key"></i></span>
                       </div>
-                      <input type="password" class="form-control" placeholder="Password"/>
+                      <input type="password" className="form-control" placeholder="Password"/>
                     </div>
-                    <div class="form-group">
-                      <input type="submit" value="Login" class="btn float-right login_btn"/>
+                    <div className="form-group">
+                      <input type="submit" value="Login" className="btn float-right login_btn"/>
                     </div>
                   </form>
                 </div>
-                <div class="card-footer">
-                  <div class="d-flex justify-content-center links">
+                <div className="card-footer">
+                  <div className="d-flex justify-content-center links">
                     Don't have an account?<a onClick={handlerLogin}>Sign Up</a>
                   </div>
                 </div>
